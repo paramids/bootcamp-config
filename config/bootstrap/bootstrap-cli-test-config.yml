@@ -55,14 +55,14 @@ bootstrap:
     # Mapping between IDP (Azure Active Directory) groups and CDF groups.
     idp-cdf-mappings:
     # Support multiple CDF Projects, like dev/test/prod in one config. 
-        - cdf-project: bootcamp-16-prod
+        - cdf-project: bootcamp-16-test
           mappings:
               - cdf-group: cdf:all:owner
-                idp-source-id: 414c9e70-61ea-4486-9883-2500cd97a34b
-                idp-source-name: bootcamp-16-prod-all-owner
+                idp-source-id: 1dfecd0d-c5fc-494b-a255-e869cf825f40
+                idp-source-name: bootcamp-16-test-all-owner
               - cdf-group: cdf:all:read
-                idp-source-id: c7c7ddcc-b4ac-4424-877b-2f78603bcb28
-                idp-source-name: bootcamp-16-prod-all-read
+                idp-source-id: 81aab642-7a26-4bb2-997b-1c4818b90b0f
+                idp-source-name: bootcamp-16-test-all-read
 
 
     namespaces:
